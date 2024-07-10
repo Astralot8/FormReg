@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header class="header">
+        <article class="container header__container">
+            <div class="header__logo">
+                <img src="assets/images/homeWorks.png" alt="logo" class="header__logo-img">
+            </div>
+        </article>
+    </header>
+    <section class="main">
+        <article class="container main__container">
+            <div class="main__registration">
+                <h1 class="main__title" id="mainTitle">Get your free account</h1>
+                <div class="main__discription">
+                    Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+                </div>
+                <form action="" class="main__form" id="main-form">
+                    <div class="main__form-input" id="fullNameDiv">
+                        <div class="main__form-input-text">
+                            Full Name
+                        </div>
+                        <input class="main__form-input-inp" type="text" id="fullName" name="fullName" value="">
+                    </div>
+                    <div class="main__form-input">
+                        <div class="main__form-input-text">
+                            Your username
+                        </div>
+                        <input class="main__form-input-inp" type="text" id="userName" name="userName" value="">
+                    </div>
+                    <div class="main__form-input" id="emailDiv">
+                        <div class="main__form-input-text">
+                            E-mail
+                        </div>
+                        <input class="main__form-input-inp" type="email" id="email" name="email" value="">
+                    </div>
+                    <div class="main__form-input">
+                        <div class="main__form-input-text">
+                            Password
+                        </div>
+                        <input class="main__form-input-inp" type="password" id="password" name="password" value="">
+                    </div>
+                    <div class="main__form-input" id="comfPassDiv">
+                        <div class="main__form-input-text">
+                            Repeat Password
+                        </div>
+                        <input class="main__form-input-inp" type="password" id="confirmPassword" name="confirmPassword" value="">
+                    </div>
+                    <div class="main__form-agree" id="formAgreeDiv">
+                        <input type="checkbox" id="form-agree" value="agree" name="Terms" checked>
+                        <label for="main__form-agree" class="main__form-agree-text">
+                            Agree to our Terms of Service and Privacy Statement
+                        </label>
+                    </div>
+                    <div class="main__form-action">
+                        <button type="button" class="btn main__form-button" id="form-button">Sign Up</button>
+                    </div>
+                    <div class="main__link" id="mainLink">
+                        <a class="main__link-a" href="#2">Already have an account?</a>
+                    </div>
+                </form>
+                <div class="main__popup" id="popup">
+                    <div class="main__popup-container">
+                        <div class="main__popup-body">
+                            <div class="main__popup-text">
+                                На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию!
+                            </div>
+                            <button class="btn main__popUp-button" id="popup-button">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__image">
+                <img src="assets/images/image.png" alt="image" class="main__image-img">
+            </div>
+        </article>
+    </section>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
