@@ -28,37 +28,37 @@ window.onload = function () {
 
   function validateSingUp() {
     if (!fullName.value) {
-      alert("Заполните поле Full Name.");
+      alert("Заполните поле Full Name:)");
       return;
     }
     if (!userName.value) {
-      alert("Заполните поле Your username.");
+      alert("Заполните поле Your username:)");
       return;
     }
     if (!email.value) {
-      alert("Заполните поле E-mail.");
+      alert("Заполните поле E-mail:)");
       return;
     }
     if (!password.value) {
-      alert("Заполните поле Password.");
+      alert("Заполните поле Password:)");
       return;
     }
 
     if (password.value.length < 8) {
-      alert("Ваш пароль меньше 8 символов, придумайте новый пароль.");
+      alert("Ваш пароль меньше 8 символов, придумайте новый пароль:)");
       return;
     }
 
     if (!confirmPassword.value) {
-      alert("Заполните поле Repeat Password.");
+      alert("Заполните поле Repeat Password:)");
       return;
     }
     if (password.value !== confirmPassword.value) {
-      alert("Введенные пароли не совпадают.");
+      alert("Введенные пароли не совпадают:)");
       return;
     }
     if (formAgree.checked == false) {
-      alert("Необходимо принять Terms of Service and Privacy Statement");
+      alert("Необходимо принять Terms of Service and Privacy Statement:)");
       return;
     }
 
@@ -67,11 +67,11 @@ window.onload = function () {
 
   function validateSingIn() {
     if (!userName.value) {
-      alert("Заполните поле Your username.");
+      alert("Заполните поле Your username:)");
       return;
     }
     if (!password.value) {
-      alert("Заполните поле Password.");
+      alert("Заполните поле Password:)");
       return;
     }
     if (userName.value && password.value) {
