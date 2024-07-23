@@ -109,4 +109,5 @@ window.onload = function () {
 
   console.log("change script.js in dev-2");
   console.log("change script.js in mytask2");
+  console.log("change script.js in mytask");
 };
