@@ -108,4 +108,5 @@ window.onload = function () {
   mainLink.onclick = logIn;
 
   console.log("change script.js in dev-2");
+  console.log("change script.js in mytask");
 };
